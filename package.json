@@ -1,0 +1,23 @@
+{
+  "name": "woehome",
+  "version": "1.0.0",
+  "description": "This repo contains 2 JSON files that each represent a \"lesson\" that Woebot gives to users - labels.json and allornothing.json. Each JSON is keyed by an ID, and each object corresponds to a message set that Woebot sends the user. The conversation starts at the object with the lesson-\"start\" tag, and proceeds to the next route based on which option the user chooses.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erik Villoria",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kire73/woeHome.git"
+  },
+  "keywords": [
+    "chatbot",
+    "CBT"
+  ],
+  "bugs": {
+    "url": "https://github.com/kire73/woeHome/issues"
+  },
+  "homepage": "https://github.com/kire73/woeHome#readme"
+}
